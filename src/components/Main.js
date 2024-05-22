@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Product from './Product';
 import CartItem from './CartItem';
 import products from '../data';
-import './styles.css'; // Import the CSS styles
+import '../styles.css'; // Import the CSS styles
 
 
 const Main = () => {
@@ -22,7 +22,7 @@ const Main = () => {
   const totalCost = cart.reduce((acc, item) => acc + item.cost, 0);
 
   return (
-    <div>
+    <div class="container">
         <div className="box">
         <h2>Products</h2>
         {products.map((product) => (

@@ -8,12 +8,14 @@ import './styles.css'; // Import the CSS styles
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <div className="container">
-        <Main />
+    <body>
+      <div className="App">
+        <Header />
+        <div className="Main">
+          <Main />
+        </div>
       </div>
-    </div>
+    </body>
   );
 };
 
