@@ -1,0 +1,13 @@
+/* styles.css */
+.container {
+  display: flex; /* Makes the boxes sit side-by-side */
+}
+
+.box {
+  flex: 1; /* Makes the boxes share available space equally */
+  margin: 10px; /* Adds some spacing between boxes */
+  border: 1px solid #ddd; /* Adds a border for better visualization */
+  overflow-y: scroll; /* Enables vertical scrolling for content overflow */
+  padding: 10px; /* Adds some padding inside the boxes */
+}
+  
