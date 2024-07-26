@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Product from './Product';
 import CartItem from './CartItem';
 import products from '../data';
-import './styles.css'; // Import the CSS styles
+import '../styles.css'; // Import the CSS styles
 
 
 const Main = () => {
