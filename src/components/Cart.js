@@ -1,7 +1,6 @@
 //component to manage the cart and display its contents with removeFromCart function component definition
 import React, { useState } from 'react';
 import CartItem from './CartItem';
-import products from '../data';
 
 const Cart = () => {
   const [cart, setCart] = useState([{id: 2, name: 'Hat', cost: 300}]); // State to store cart items
