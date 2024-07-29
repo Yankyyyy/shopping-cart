@@ -23,14 +23,15 @@ const Main = () => {
 
   return (
     <div>
-        <div className="box">
+      <div className="container">
+        <div align="center" className="box">
         <h2>Products</h2>
         {products.map((product) => (
             <Product key={product.id} product={product} onAddToCart={addToCart} />
         ))}
         </div>
 
-        <div className="box">
+        <div align="center" className="box">
         <h2>Cart</h2>
         {cart.length === 0 ? (
         <p>Cart is empty</p>
@@ -42,6 +43,7 @@ const Main = () => {
         <p>Total: ${totalCost}</p>
         <button onClick={() => setCart([])}>Checkout (Clear Cart)</button>
         </div>
+      </div>
     </div>
   );
 };

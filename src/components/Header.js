@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="header">
-      <h1>Shopping Cart</h1>
+      <h1 align="center">Shopping Cart</h1>
     </header>
   );
 };

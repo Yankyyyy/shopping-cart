@@ -9,5 +9,7 @@
   border: 1px solid #ddd; /* Adds a border for better visualization */
   overflow-y: scroll; /* Enables vertical scrolling for content overflow */
   padding: 10px; /* Adds some padding inside the boxes */
+  height: 500px;
+  width:500px;
 }
   
